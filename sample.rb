@@ -33,19 +33,15 @@ end
         elsif(difference%3==1)
             puts"lose"
         elsif(difference%3==0)
-            puts"drow"
+            puts" it is drow please!!! play again"  
+            load('sample.rb')
     end
    end
 end
-
-
-   player = Player.new
+   player = Player.new 
    enemy = Enemy.new
    janken = Janken.new
-
    janken.pon(player.hand, enemy.hand)
-   
-   
    # The Janken method is invoked by the following description
   
    # The Ruby description written here is a template prepared as a hint.
